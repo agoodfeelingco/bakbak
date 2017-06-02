@@ -1,5 +1,6 @@
 {
 .appVersion = "1029";
+copyright = "Copyright 2017 The Bak Bak Project Authors (https://github.com/agoodfeelingco/bakbak)";
 customParameters = (
 {
 name = license;
@@ -21,10 +22,15 @@ value = 1;
 {
 name = "Use Line Breaks";
 value = 1;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2017-05-21 05:43:47 +0000";
 designer = "Saumya Kishore and Sanchit Sawaria";
+designerURL = "http://www.agoodfeeling.co";
 disablesAutomaticAlignment = 1;
 disablesNiceNames = 1;
 familyName = "Bak Bak";
@@ -924,6 +930,40 @@ alignmentZones = (
 );
 ascender = 1050;
 capHeight = 607;
+customParameters = (
+{
+name = typoAscender;
+value = 1050;
+},
+{
+name = typoDescender;
+value = -200;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 970;
+},
+{
+name = winDescent;
+value = 602;
+},
+{
+name = hheaAscender;
+value = 1050;
+},
+{
+name = hheaDescender;
+value = -200;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
 descender = -350;
 guideLines = (
 {
@@ -90990,6 +91030,8 @@ period = -40;
 };
 };
 };
+manufacturer = "A Good Feeling";
+manufacturerURL = "http://www.agoodfeeling.co";
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
@@ -91006,5 +91048,5 @@ tH = 114;
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
