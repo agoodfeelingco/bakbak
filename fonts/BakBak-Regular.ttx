@@ -1080,19 +1080,19 @@
     <GlyphID id="1074" name="ff"/>
     <GlyphID id="1075" name="ffi"/>
     <GlyphID id="1076" name="ffl"/>
-    <GlyphID id="1077" name="nbspace"/>
+    <GlyphID id="1077" name="uni00A0"/>
   </GlyphOrder>
 
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.00099"/>
-    <checkSumAdjustment value="0x51577d2d"/>
+    <checkSumAdjustment value="0x6cae7301"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000111"/>
     <unitsPerEm value="1000"/>
     <created value="Sun May 21 05:43:47 2017"/>
-    <modified value="Fri Jun  2 14:56:21 2017"/>
+    <modified value="Tue Jun  6 10:29:29 2017"/>
     <xMin value="-576"/>
     <yMin value="-602"/>
     <xMax value="2430"/>
@@ -1933,7 +1933,6 @@
     <mtx name="n" width="593" lsb="60"/>
     <mtx name="nacute" width="593" lsb="60"/>
     <mtx name="napostrophe" width="753" lsb="20"/>
-    <mtx name="nbspace" width="300" lsb="0"/>
     <mtx name="ncaron" width="593" lsb="60"/>
     <mtx name="nine" width="544" lsb="25"/>
     <mtx name="nonmarkingreturn" width="300" lsb="0"/>
@@ -2016,6 +2015,7 @@
     <mtx name="uhungarumlaut" width="600" lsb="50"/>
     <mtx name="umacron" width="600" lsb="50"/>
     <mtx name="underscore" width="488" lsb="10"/>
+    <mtx name="uni00A0" width="300" lsb="0"/>
     <mtx name="uni00AD" width="600" lsb="30"/>
     <mtx name="uni00B2" width="364" lsb="25"/>
     <mtx name="uni00B3" width="397" lsb="40"/>
@@ -2377,7 +2377,7 @@
       <map code="0x7c" name="bar"/><!-- VERTICAL LINE -->
       <map code="0x7d" name="braceright"/><!-- RIGHT CURLY BRACKET -->
       <map code="0x7e" name="asciitilde"/><!-- TILDE -->
-      <map code="0xa0" name="nbspace"/><!-- NO-BREAK SPACE -->
+      <map code="0xa0" name="uni00A0"/><!-- NO-BREAK SPACE -->
       <map code="0xa1" name="exclamdown"/><!-- INVERTED EXCLAMATION MARK -->
       <map code="0xa2" name="cent"/><!-- CENT SIGN -->
       <map code="0xa3" name="sterling"/><!-- POUND SIGN -->
@@ -2937,7 +2937,7 @@
       <map code="0xc7" name="guillemotleft"/>
       <map code="0xc8" name="guillemotright"/>
       <map code="0xc9" name="ellipsis"/>
-      <map code="0xca" name="nbspace"/>
+      <map code="0xca" name="uni00A0"/>
       <map code="0xcb" name="Agrave"/>
       <map code="0xcc" name="Atilde"/>
       <map code="0xcd" name="Otilde"/>
@@ -3090,7 +3090,7 @@
       <map code="0x7c" name="bar"/><!-- VERTICAL LINE -->
       <map code="0x7d" name="braceright"/><!-- RIGHT CURLY BRACKET -->
       <map code="0x7e" name="asciitilde"/><!-- TILDE -->
-      <map code="0xa0" name="nbspace"/><!-- NO-BREAK SPACE -->
+      <map code="0xa0" name="uni00A0"/><!-- NO-BREAK SPACE -->
       <map code="0xa1" name="exclamdown"/><!-- INVERTED EXCLAMATION MARK -->
       <map code="0xa2" name="cent"/><!-- CENT SIGN -->
       <map code="0xa3" name="sterling"/><!-- POUND SIGN -->
@@ -59732,8 +59732,6 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="nbspace"/><!-- contains no outline data -->
-
     <TTGlyph name="ncaron" xMin="60" yMin="9" xMax="543" yMax="696">
       <component glyphName="n" x="0" y="0" flags="0x0"/>
       <component glyphName="caron" x="128" y="-140" flags="0x4"/>
@@ -62801,6 +62799,8 @@
           WCVTP[ ]	/* WriteCVTInPixels */
         </assembly></instructions>
     </TTGlyph>
+
+    <TTGlyph name="uni00A0"/><!-- contains no outline data -->
 
     <TTGlyph name="uni00AD" xMin="30" yMin="197" xMax="438" yMax="322">
       <component glyphName="hyphen" x="0" y="0" flags="0x0"/>
@@ -75198,7 +75198,7 @@
       http://www.agoodfeeling.co
     </namerecord>
     <namerecord nameID="12" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      http://www.agoodfeeling.co
+      http://www.struckby.co
     </namerecord>
     <namerecord nameID="13" platformID="1" platEncID="0" langID="0x0" unicode="True">
       This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
@@ -75237,7 +75237,7 @@
       http://www.agoodfeeling.co
     </namerecord>
     <namerecord nameID="12" platformID="3" platEncID="1" langID="0x409">
-      http://www.agoodfeeling.co
+      http://www.struckby.co
     </namerecord>
     <namerecord nameID="13" platformID="3" platEncID="1" langID="0x409">
       This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
@@ -76103,7 +76103,7 @@
       <psName name="ff"/>
       <psName name="ffi"/>
       <psName name="ffl"/>
-      <psName name="nbspace"/>
+      <psName name="uni00A0"/>
     </extraNames>
   </post>
 
